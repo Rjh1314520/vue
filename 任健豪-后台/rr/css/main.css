@@ -1,0 +1,87 @@
+.main-header{
+    height: 48px;
+    line-height: 48px;
+    background: white;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    
+}
+.main-text{
+    padding: 0 15px;
+}
+.main-text span{
+    margin: 0 8px;
+    color: #999;
+}
+.main-text a {
+    color: #999!important;
+}
+
+
+.main-text a cite{
+    cursor:text;
+}
+
+.main-text>a:first-child:hover{
+    color: #5FB878!important
+}
+.main-fluid{
+    margin: 10px 10px;
+}
+
+.main-fluid:after{    
+        margin: 0 auto;
+       overflow: hidden;
+        padding: 15px;
+        width: 100%;
+        height: auto;
+        clear: both;
+         
+}
+.main-soy{
+    float: left;
+    width: 16.66666667%; 
+    padding: 5px;
+   
+}
+
+.main-car { 
+    height: 267px;
+ 
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    
+}
+
+
+.main-car:last-child {
+    margin-bottom:0;
+}
+ @media screen and (min-width:1200px){.main-soy {
+     width: 16.66666667%; 
+}
+
+}
+ @media screen and (min-width: 992px) and (max-width:1200px){
+.main-soy{
+  
+    width: 
+}
+}
+ @media screen and (min-width: 768px) and  (max-width: 992px){
+.main-soy {
+ 
+    width: 33.33333333%;
+}
+
+}  
+ @media screen and (max-width:768px){
+    .main-soy{
+     
+        width:98%;
+    }
+    
+    
+}

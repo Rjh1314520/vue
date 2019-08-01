@@ -1,0 +1,81 @@
+
+        <div class="main-header">
+            <div class="main-text">
+
+                <a href="jacascript:;"> 主页 </a>
+                <span>/</span>
+                <a href="jacascript:;">
+                    <cite>组件</cite>
+                </a>
+                <span>/</span>
+                <a href="jacascript:;">
+                    <cite>徽章</cite> </a>
+            
+            </div>
+        </div>
+          <div class="main-cart">
+        <div class="main-card-header">小徽章大家族</div>
+        <div class="main-card-body-1">
+         小圆点：
+         <span class="main-badge-dot"></span>
+         <span class="main-badge-dot  main-bg-orange"></span>
+         <span class="main-badge-dot  main-bg-green"></span>
+         <span class="main-badge-dot  main-bg-cyan"></span>
+         <span class="main-badge-dot  main-bg-blue"></span>
+         <span class="main-badge-dot  main-bg-black"></span>
+         <span class="main-badge-dot  main-bg-gray"></span>
+
+              </div>
+              <div class="main-card-body-1">
+                    常规弧形徽章：
+                    <span class="main-badge">6</span>
+        <span class="main-badge">99</span>
+        <span class="main-badge">61728</span>
+        <span class="main-badge">赤</span>
+        <span class="main-badge main-bg-orange">橙</span>
+        <span class="main-badge main-bg-green">绿</span>
+        <span class="main-badge main-bg-cyan">青</span>
+        <span class="main-badge main-bg-blue">蓝</span>
+        <span class="main-badge main-bg-black">黑</span>
+        <span class="main-badge main-bg-gray">灰</span>
+                    </div>
+
+                    <div class="main-card-body-1">
+                            边框徽章 : 
+            <span class="main-badge-rim">6</span>
+        <span class="main-badge-rim">Hot</span>
+                          
+            </div>
+</div>
+  <div class="main-cart">
+        <div class="main-card-header">与其它元素的搭配</div>
+        <div class="main-card-body-1">
+        <button class="main-btn">查看消息<span class="main-badge main-bg-gray">1</span></button>
+        <button class="main-btn">动态<span class="main-badge-dot main-bg-orange"></span></button>
+        </div>
+        <div class="main-card-body-1">
+        <ul class="main-nav style=" text-align:="" right;> 
+                <li class="main-nav-item">
+                  <a href="">控制台<span class="main-badge">9</span></a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="">个人中心<span class="main-badge-dot"></span></a>
+                </li>
+              <span class="main-nav-bar" style="width: 0px; left: 20px; opacity: 0; top: 55px;"></span></ul>
+           </div>  
+           <div class="main-ta  b main-tab-brief">
+                <ul class="main-tab-title">
+                  <li class="main-this">网站设置</li>
+                  <li class="">用户管理<span class="main-badge-dot"></span></li>
+                  <li class="">最新邮件<span class="main-badge">99+</span></li>
+                </ul>
+                <div class="main-tab-content"></div>
+              </div>
+        </div>
+  <script>
+  $('.main-tab-title li').click(function(){
+  $(this).addClass('main-this');
+  $(this).siblings().removeClass('main-this')
+})
+</script>
+

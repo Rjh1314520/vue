@@ -1,0 +1,70 @@
+  <div class="main-header">
+                    <div class="main-text">
+        
+                        <a href="jacascript:;"> 主页 </a>
+                        <span>/</span>
+                        <a href="jacascript:;">
+                            <cite>组件</cite>
+                        </a>
+                        <span>/</span>
+                        <a href="jacascript:;">
+                            <cite>动画</cite> </a>
+                    
+                    </div>
+                </div>
+                <div class="main-cart">
+                        <div class="main-card-header">点击演示动画</div>
+                        <div class="main-card-body">
+          
+                                <ul class="component-anim-demo">
+                                  <li>
+                                    <div class="main-anim main-anim-up " data-anim="main-anim-up">从最底部往上滑入</div>
+                                    <div class="code">main-anim-up</div>
+                                  </li>
+                                  <li>
+                                    <div class="main-anim main-anim-upbit" data-anim="main-anim-upbit">微微往上滑入</div>
+                                    <div class="code">main-anim-upbit</div>
+                                  </li>
+                                  <li>
+                                    <div class="main-anim main-anim-scale" data-anim="main-anim-scale">平滑放大</div>
+                                    <div class="code">main-anim-scale</div>
+                                  </li>
+                                   <li>
+                                    <div class="main-anim main-anim-scaleSpring" data-anim="main-anim-scaleSpring">弹簧式放大</div>
+                                    <div class="code">main-anim-scaleSpring</div>
+                                  </li>
+                                </ul>
+                                <ul class="component-anim-demo">
+                                  <li>
+                                    <div class="main-anim main-anim-fadein" data-anim="main-anim-fadein">渐现</div>
+                                    <div class="code">main-anim-fadein</div>
+                                  </li>
+                                  <li>
+                                    <div class="main-anim" data-anim="main-anim-fadeout">渐隐</div>
+                                    <div class="code">main-anim-fadeout</div>
+                                  </li>
+                                  <li>
+                                    <div class="main-anim main-anim-rotate" data-anim="main-anim-rotate">360度旋转</div>
+                                    <div class="code">main-anim-rotate</div>
+                                  </li>
+                                  <li>
+                                    <div class="main-anim main-anim-rotate main-anim-loop" data-anim="main-anim-rotate main-anim-loop">循环动画</div>
+                                    <div class="code">追加：main-anim-loop</div>
+                                  </li>
+                                </ul>
+                                
+                              </div>
+                        </div>
+                </main>
+               
+                
+  
+
+<script>
+           $('.main-anim-up').click(function(){
+            $(this).toggleClass("main-up")
+           })
+           $('.main-anim-up').on("animationend",function(){
+               $(this).removeClass("main-up")
+           })
+</script> 

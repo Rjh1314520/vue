@@ -1,0 +1,275 @@
+main .main-text a cite{
+    color: #666;
+    font-style: normal;
+}
+.main-card-header{
+position: relative;
+height: 42px;
+line-height: 42px;
+padding: 0 15px;
+border-bottom: 2px solid #f8f8f8;
+color: #333;
+border-radius: 5px 5px 0 0;
+font-size: 14px;
+background: #ffff;
+margin: 10px;
+}
+
+.main{
+    padding: 15px
+}
+.main-card-body {
+    position: relative;
+   
+    line-height: 24px;
+    background: #ffff;
+    padding: 0 15px;
+}
+ 
+/*徽章css*/
+.main-cart{
+    margin:15px 15px;
+    width: 100%;
+    background: white;
+}
+.main-card-body-1{  
+    padding:20px 25px;
+}
+
+
+.main-bg-orange{
+    background-color: #FFB800!important;
+}
+.main-bg-green{
+    background-color: #009688!important;
+}
+.main-bg-cyan{
+    background-color: #2F4056!important;
+}
+
+.main-bg-blue{
+    background-color: #1E9FFF!important;
+}
+.main-bg-black{
+    background-color: #393D49!important;
+}
+.main-bg-gray{
+    background-color: #eee!important;
+    color: #666!important;
+}
+
+.main-badge-dot{
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #FF5722;
+   
+}
+.main-badge ,.main-badge-rim{    
+    height: 18px;
+       position: relative;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 12px;
+    line-height: 18px;
+  text-align: center;
+    background-color: #FF5722;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.main-badge-rim {
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    color: #666;
+    
+}
+.main-btn+.main-btn {
+    margin-left: 10px;
+}
+.main-btn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.main-btn .main-badge, .main-btn .main-badge-dot,.main-nav-item span{
+    margin-left: 5px;
+}
+.main-nav {
+    position: relative;
+    padding: 0 20px;
+    
+    background-color: #393D49;
+    color: #fff;
+    border-radius: 2px;  
+    box-sizing: border-box;
+}
+.main-nav .main-nav-item {
+    position: relative;
+    display: inline-block;
+    line-height: 60px;
+}
+.main-nav * {
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+.main-nav .main-nav-item a {
+    display: block;
+    padding: 0px 20px;
+    color: #fff;
+    color: rgba(255,255,255,.7);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.main-nav .main-badge, .main-nav .main-badge-dot {
+    position: absolute;
+    top: 50%;
+    margin: -8px 6px 0;
+}
+.main-card .main-tab-brief .main-tab-title li {
+    margin: 0 15px;
+    padding: 0;
+    line-height: 42px;
+}
+.main-tab-title {
+    position: relative;
+    left: 0;
+    height: 40px;
+    white-space: nowrap;
+    font-size: 0;
+    border-bottom-width: 1px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.main-tab-title li {
+    display: inline-block; 
+    vertical-align: middle;
+    font-size: 14px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: relative;
+    line-height: 40px;
+    min-width: 65px;
+    padding: 0 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-tab-title .main-badge, .main-tab-title .main-badge-dot {
+    left: 5px;
+    top: -2px;
+}
+.main-tab-brief>.main-tab-more li.main-this:after, .main-tab-brief>.main-tab-title .main-this:after {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #5FB878;
+}  
+.main-tab-title .main-this:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 41px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #fff;
+    border-radius: 2px 2px 0 0;
+    box-sizing: border-box;
+    pointer-events: none;
+} 
+
+
+/* 流加载 */
+
+ #LAY-flow-demo,.flow-default {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    font-size: 0;
+   
+} 
+ #LAY-flow-demo , .flow-default li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+    width: 48%;
+    margin-bottom: 10px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+/* 动画 */
+#component-anim ,.component-anim-demo {
+    margin-bottom: 50px;
+    font-size: 0;
+}
+#component-anim ,.component-anim-demo li {
+    width: 222px;
+}
+
+#component-anim ,.component-anim-demo li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 127px;
+    line-height: 25px;
+    padding: 20px 0;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border: 1px solid #e2e2e2;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+#component-anim,.component-anim-demo .main-anim {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin: 0 auto 10px;
+    text-align: center;
+    background-color: #009688;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+}
+#component-anim ,.component-anim-demo li {
+    width: 222px;
+}
+ .main-up {
+    -webkit-animation-name:main-up;
+    animation-name:main-up;
+}
+.main-anim , .main-up{
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@keyframes main-up{
+    0% {
+        transform: translate3d(0,100%,0);
+        opacity: .3;
+    }
+    100% {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
