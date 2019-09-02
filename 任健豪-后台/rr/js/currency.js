@@ -69,19 +69,16 @@ var hei = $(window).height();
 $(document.body).css({ "height": hei });
 
 //****   窗体变动   ******* */
-// $(window).resize(function () {
-// });
+ $(window).resize(function () {
+ });
 
-
-
-
-    /* $(' .nav-box #tt').click(function(){  
+  $(' .nav-box #tt').click(function(){  
         alert(1)
     $('#dd').load("../loading .html");
-    }) */
+    }) 
 
 /* nav与和header 的 span动画 */
-/* spanAnimate();
+ spanAnimate();
  function spanAnimate() {
     //导航条soan
     var NLtop = null;
@@ -105,8 +102,6 @@ $(document.body).css({ "height": hei });
         },
     });
 }
- 
-
     /* 头部span动画 */
     var HLleft = null;
     var HLwidth = null;
@@ -150,8 +145,6 @@ $(document.body).css({ "height": hei });
             }, 150);
         },
     });
-
-
 /* nav导航显示隐藏 */
 LIHover();
 function LIHover() {
@@ -185,8 +178,7 @@ function LIHover() {
         // console.log(dls.length)  0 无下级页面
         if (dls.length == 0) {
             var card = event.target;
-            var cardName = $(card).attr("name");
-        ltrew
+            var cardName =$(card).attr("name");
             // console.log(cards.card1+''+cards.card2+''+cards.card3+'')
             htmlobj = $.ajax({
                 type: "get",
@@ -196,14 +188,13 @@ function LIHover() {
                     // console.log(response != '')
                     if (response != '') {
                         $('main').html(response);
-                    }else{
-                        $('main').html("页面正在制作中");
+                   
+                      
                     }
                 },
-                /* error: function (XMLHttpRequest, textStatus, errorThrown) {
-                    alert('当前页面未完成');
-                    console.log("data/" + cards.card3 + "/" + cards.card2 + "/" + cards.card1 + "ee.txt")
-                    $('main').html('<p style="color:red;font-size:30px">当前页面未完成</p>');
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                  
+                    $('main').html('<p style="color:blue;font-size:30px">当前页面未完成</p>');
                     // // 状态码
                     // console.log(XMLHttpRequest.status);
                     // // 状态
@@ -211,7 +202,7 @@ function LIHover() {
                     // // 错误信息   
                     // console.log(textStatus);
                     // console.log(errorThrown);
-                }     */
+                }    
             });
             // console.log("ajax数据请求完成后修改对象html，会给对象添加style")
             $('main').removeAttr("style");
@@ -328,11 +319,6 @@ function artBox() {
             });
         }
     });
-
-
-
-0
-
 
 var xianxin = $('.Head-dl').parent();
     var span = xianxin.children('a').children('span');
